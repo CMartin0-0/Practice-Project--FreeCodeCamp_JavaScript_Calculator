@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url(./assets/fonts/Roboto-Regular.ttf) format('ttf');
+}
+
+:root {
+  font-family: 'Roboto', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  color: rgba(255, 250, 250, 0.87);
+  background-color: #000000 ;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+  
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #080807;
+  background-image: linear-gradient(315deg, #080807 0%, #000000 74%);
+}
