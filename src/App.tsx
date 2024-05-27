@@ -21,8 +21,8 @@ const App = () => {
     const [wasEvaluated, setWasEvaluated] = useState('false');
     const [lastInput, setLastInput] = useState('');
 
-    const numClickHandler = (e) => {
-        const value = e.target.innerHTML.toString().replace('X', '*');
+    const numClickHandler = (e: React.MouseEvent<HTMLElement>) => {
+        const value = e.currentTarget.innerHTML.toString().replace('X', '*');
 
         if (value.includes('*') || value.includes('-') || value.includes('/') || value.includes('+')) {
             if (lastInputWasSign === 'true' && value === '-' && currSign.length < 2) {

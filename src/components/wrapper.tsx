@@ -1,6 +1,9 @@
 import './Wrapper.css';
+type WrapperProps = {
+    children: React.ReactNode;
+}
 
-const Wrapper = ({ children }) => {
+const Wrapper = ({ children }: WrapperProps) => {
     return <div className="wrapper">{children}</div>;
 };
 

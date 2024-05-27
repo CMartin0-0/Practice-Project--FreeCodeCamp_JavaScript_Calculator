@@ -1,6 +1,10 @@
 import "./ButtonBox.css";
 
-const ButtonBox = ({ children }) => {
+type ButtonBoxProps = {
+  children: React.ReactNode;
+}
+
+const ButtonBox = ({ children }: ButtonBoxProps) => {
   return <div className="buttonBox">{children}</div>;
 };
 
