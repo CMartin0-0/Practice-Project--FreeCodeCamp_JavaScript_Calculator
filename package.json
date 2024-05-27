@@ -1,6 +1,6 @@
 {
   "name": "fcc_js_calculator",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "homepage": "https://CMartin0-0.github.io/fcc_javascript_calculator",
   "type": "module",
@@ -44,7 +44,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn precommit"
+      "pre-commit": "npm precommit"
     }
   },
   "overrides": {
