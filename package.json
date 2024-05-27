@@ -1,12 +1,9 @@
 {
   "name": "fcc_js_calculator",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
-  "homepage": "https://CMartin0-0.github.io/fcc_javascript_calculator",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
