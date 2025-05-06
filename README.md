@@ -1,30 +1,50 @@
-# React + TypeScript + Vite
+# FreeCodeCamp - JavaScript Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains my submission for the [FreeCodeCamp JavaScript Calculator project](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-javascript-calculator). The project demonstrates the ability to create a functional calculator using web technologies like TypeScript, JavaScript, CSS, and HTML. 
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Basic Operations**: Addition, subtraction, multiplication, and division.
+- **Clear Functionality**: Reset the calculator to its initial state.
+- **Chained Operations**: Perform multiple operations sequentially.
+- **Responsive Design**: Works on both desktop and mobile devices.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **TypeScript**: Main language for logic and functionality (81.8% of the codebase).
+- **CSS**: Styles and layout (11.9% of the codebase).
+- **JavaScript**: Supplementary scripting (3.4% of the codebase).
+- **HTML**: Basic structure (2.9% of the codebase).
+- **React**: Main JS Framework
+- **Vite**: For building and development
 
-- Configure the top-level `parserOptions` property like this:
+## How to Run the Project
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/CMartin0-0/Practice-Project--FreeCodeCamp_JavaScript_Calculator.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Practice-Project--FreeCodeCamp_JavaScript_Calculator
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the web server:
+   ```bash
+   npm run dev
+   ```
+5. Navigate to the local host address of the created server
+## Demo
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+You can see a live demo of the project [here](https://fcc-javascript-calculator-jade.vercel.app/). 
+
+## Contributing
+
+Contributions are welcome! If you’d like to improve the project or fix any issues, feel free to fork the repository and submit a pull request.
+
+--- 
+
+Feel free to reach out with any questions or feedback!
